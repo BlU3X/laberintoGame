@@ -1,0 +1,33 @@
+@font-face{
+    font-family: 'monsterhunter';
+    src: local('monsterhunter'), url('../assets/monsterhunter.ttf') format('TrueType');
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.punto{
+  height: 0;
+}
+
+  canvas, juego.div{
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+
+@media (min-width: 400px) and (max-width: 599px) {
+  canvas, juego.div{
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  canvas, juego.div{
+    margin-left: 13%;
+    margin-top: 20px;
+  }
+}
